@@ -1,4 +1,4 @@
-from module1 import hello
-from module2 import hello
+import module1
+import module2
 def hello(target="World"):
     print("Hello {}!".format(target))
