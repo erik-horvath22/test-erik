@@ -7,5 +7,5 @@ setup(name="test-erik-git",
       author="Erik Horvath",
       authoer_email="matias.codesal@gmail.com",
       url='https://github.com/erik-horvath22/test-erik',
-      packages=['test_erik']
+      packages=['test-erik']
 )
