@@ -1,4 +1,4 @@
-from setuptools import setup, find_packages
+from distutils.core import setup
 
 setup(name="test-erik-git",
       version="1.0.0",
@@ -7,5 +7,5 @@ setup(name="test-erik-git",
       author="Erik Horvath",
       authoer_email="matias.codesal@gmail.com",
       url='https://github.com/erik-horvath22/test-erik',
-      packages=find_packages('test_erik')
+      packages=['test_erik', 'helpers']
 )
