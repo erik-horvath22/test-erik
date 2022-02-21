@@ -1,4 +1,6 @@
-from helpers import module3
+from . import module1
 
-print("This is the module 4 importing module3 saying hello")
-module3.hello()
+
+def hello():
+    print("This is the module 4 importing module1 saying hello")
+    module1.hello()
