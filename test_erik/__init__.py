@@ -1,4 +1,4 @@
 from .module2 import func
-from .test_handler import *
+import test_handler
 def hello(target="World"):
     print("Hello {}!".format(target))
