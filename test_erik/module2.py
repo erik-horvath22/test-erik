@@ -1,5 +1,5 @@
-from test_handler import TestHandler
+import test_handler
 
 def func():
-    temp = TestHandler(12,5)
+    temp = test_handler.TestHandler(12,5)
     print(temp.add())
