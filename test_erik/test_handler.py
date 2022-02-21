@@ -8,3 +8,6 @@ class TestHandler:
     def add(self):
         return self.a + self.b
 
+
+def test_module(a, b):
+    return a + b
