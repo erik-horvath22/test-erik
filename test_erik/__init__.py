@@ -1,3 +1,4 @@
+import os, sys; sys.path.append(os.path.dirname(os.path.realpath(__file__)))
 from .module1 import hello as hello1
 from .module2 import hello as hello2
 from .module4 import hello as hello4

@@ -1,4 +1,4 @@
-from .helpers import module3
+from helpers import module3
 
 
 def hello():
